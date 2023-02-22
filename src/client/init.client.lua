@@ -7,11 +7,14 @@ local Label = require(script.Label)
 local Value = Fusion.Value
 local Observer = Fusion.Observer
 local New = Fusion.New
+local Hydrate = Fusion.Hydrate
 
-local progress = Value(0)
+local color = Value(Color3.fromRGB(100, 100, 100))
 
 local app = New("ScreenGui"){
     Parent = Players.LocalPlayer.PlayerGui,
     Name = "Hello World",
-    [Fusion.Children] = Label()
+    [Fusion.Children] = Hydrate(Label()){
+        BackgroundColor3 = color
+    }
 }
