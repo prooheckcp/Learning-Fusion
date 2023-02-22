@@ -1,0 +1,8 @@
+[package]
+name = "prooheckcp/learning-fusion"
+version = "0.1.0"
+registry = "https://github.com/UpliftGames/wally-index"
+realm = "shared"
+
+[dependencies]
+Fusion = "elttob/fusion@0.2.0"      # Fusion, our Client side UI framework
