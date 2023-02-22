@@ -11,10 +11,15 @@ local Hydrate = Fusion.Hydrate
 
 local color = Value(Color3.fromRGB(100, 100, 100))
 
-local app = New("ScreenGui"){
+local app = New "ScreenGui" {
     Parent = Players.LocalPlayer.PlayerGui,
     Name = "Hello World",
-    [Fusion.Children] = Hydrate(Label()){
-        BackgroundColor3 = color
+    [Fusion.Children] = 
+    {
+        Hydrate(Label()){
+            BackgroundColor3 = color
+        }
+        
     }
+
 }
