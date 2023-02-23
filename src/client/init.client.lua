@@ -14,6 +14,7 @@ local ForPairs = Fusion.ForPairs
 local names = Value({"prooheckcp", "prooheck", "proo"})
 local color = Value(Color3.fromRGB(100, 100, 100))
 
+--[[
 local app = New "ScreenGui" {
     Parent = Players.LocalPlayer.PlayerGui,
     Name = "Hello World",
@@ -32,4 +33,5 @@ local app = New "ScreenGui" {
         end, Fusion.cleanup)
     }
 
-}
+}    
+]]
