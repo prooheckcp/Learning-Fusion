@@ -24,11 +24,12 @@ New "ScreenGui" {
             AnchorPoint = Vector2.new(0.5, 0.5),
             Position = UDim2.fromScale(0.5, 0.5),
             Size = Spring(Computed(function()
+                print("called")
                 return sizeValue:get()
             end)),
 
             [Fusion.OnEvent "Activated"] = function()
-                sizeValue:set(UDim2.fromScale(0.35, 0.15))
+                sizeValue:set(UDim2.fromScale(0.35, 0.6))
             end
         }
     }

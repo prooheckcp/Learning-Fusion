@@ -1,8 +1,10 @@
 [package]
 name = "prooheckcp/learning-fusion"
 version = "0.1.0"
-registry = "https://github.com/UpliftGames/wally-index"
+registry = "https://github.com/prooheckcp/Wally-index"
 realm = "shared"
 
 [dependencies]
+roactmotion = "prooheckcp/roactmotion@0.1.9"
 Fusion = "elttob/fusion@0.2.0"      # Fusion, our Client side UI framework
+Robloxstatemachines = "prooheckcp/robloxstatemachines@0.1.1"

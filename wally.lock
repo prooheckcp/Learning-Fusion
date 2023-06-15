@@ -10,4 +10,14 @@ dependencies = []
 [[package]]
 name = "prooheckcp/learning-fusion"
 version = "0.1.0"
-dependencies = [["Fusion", "elttob/fusion@0.2.0"]]
+dependencies = [["Fusion", "elttob/fusion@0.2.0"], ["Robloxstatemachines", "prooheckcp/robloxstatemachines@0.1.1"], ["roactmotion", "prooheckcp/roactmotion@0.1.9"]]
+
+[[package]]
+name = "prooheckcp/roactmotion"
+version = "0.1.9"
+dependencies = []
+
+[[package]]
+name = "prooheckcp/robloxstatemachines"
+version = "0.1.1"
+dependencies = []
